@@ -24,7 +24,7 @@ export default {
       ],
       extensions: ['.js', '.jsx', '.ts', '.tsx'],
     }),
-    typescript(),
+    typescript({ tsconfig: './tsconfig.json' }),
     // node_modules 내 서드파티 모듈 사용
     nodeResolve(),
     // cjd 디펜던시 es 방식으로 변환해서 빌드 결과물에 포함가능하게 해줌

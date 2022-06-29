@@ -2,6 +2,7 @@
   "name": "rollup-boilerplate",
   "version": "1.0.0",
   "main": "./dist/bundle.js",
+  "typings": "./dist/index.d.ts",
   "author": "hw",
   "license": "MIT",
   "scripts": {
